@@ -34,6 +34,9 @@
   }
   </script>
 <style>
+    html {
+      overflow-x: hidden;
+    }
     body {
       font-family: 'Space Grotesk', sans-serif;
     }
@@ -66,7 +69,8 @@
 <a class="text-sm font-medium text-slate-300 hover:text-secondary transition-colors uppercase tracking-widest" href="#location">Standort</a>
 </div>
 <button onclick="window.location.href='https://wa.me/4915789255546';" class="bg-primary hover:bg-secondary hover:text-background-dark text-white text-sm font-bold px-6 py-2 rounded-full transition-all duration-300 transform hover:scale-105 shadow-[0_0_20px_rgba(242,13,128,0.5)]">
-        Training anfragen
+        <span class="block md:hidden">Kontakt</span>
+        <span class="hidden md:inline">Training anfragen</span>
       </button>
 </div>
 </nav>
@@ -147,7 +151,7 @@
 <!-- Extravagant Skills Grid -->
 <section id="training" class="py-20 bg-background-dark relative">
 <div class="layout-container max-w-7xl mx-auto px-6">
-<div class="flex flex-col md:flex-row justify-between items-end mb-16 gap-8">
+<div class="flex flex-col md:flex-row justify-between items-center md:items-end mb-16 gap-8">
 <div>
 <h2 class="text-5xl md:text-7xl font-bold text-white mb-4">TRAINING MIT<br/><span class="text-stroke text-stroke-hover transition-colors duration-300 cursor-default">SYSTEM</span></h2>
 <p class="text-slate-400 max-w-xl text-lg">Strukturiertes Padel Training mit klaren Zielen: bessere Technik, clevere Taktik und ein starker Kopf auf dem Court – direkt im Tennis Club Schiefbahn.</p>
@@ -174,7 +178,7 @@
 </div>
 <div class="mt-8 pt-6 border-t border-white/5">
 <span class="text-sm font-bold text-white group-hover:text-primary transition-colors flex items-center gap-2">
-                            Learn More <span class="material-symbols-outlined text-sm">arrow_outward</span>
+                            Mehr erfahren <span class="material-symbols-outlined text-sm">arrow_outward</span>
 </span>
 </div>
 </div>
@@ -197,7 +201,7 @@
 </div>
 <div class="mt-8 pt-6 border-t border-white/5">
 <span class="text-sm font-bold text-white group-hover:text-secondary transition-colors flex items-center gap-2">
-                            Learn More <span class="material-symbols-outlined text-sm">arrow_outward</span>
+                            Mehr erfahren <span class="material-symbols-outlined text-sm">arrow_outward</span>
 </span>
 </div>
 </div>
@@ -220,7 +224,7 @@
 </div>
 <div class="mt-8 pt-6 border-t border-white/5">
 <span class="text-sm font-bold text-white group-hover:text-accent-violet transition-colors flex items-center gap-2">
-                            Learn More <span class="material-symbols-outlined text-sm">arrow_outward</span>
+                            Mehr erfahren <span class="material-symbols-outlined text-sm">arrow_outward</span>
 </span>
 </div>
 </div>
